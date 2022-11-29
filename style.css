@@ -1,24 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
-
-
 body {
 	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fone.ppg);
 	color: #fff;
 	font-family: sans-serif;
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: 'Rubik', sans-serif;
 }
 
 h1 {
-	/* text-transform: uppercase; */
-	text-align: center;
-	margin-top: 150px;
-	font-size: 50px;
-}
-
-h5 {
 	/* text-transform: uppercase; */
 	text-align: center;
 	margin-top: 150px;
@@ -30,14 +18,13 @@ p {
 	display: block;
 	margin: 0 auto;
 	width: 80%;
-	text-align: center;
 }
 
 a {
 	color: purple;
 }
 
-#disqus_thread {
+#mc-container {
 	width: 50%;
 	margin-left: 25%;
 	margin-top: 15%;
