@@ -3,7 +3,10 @@
 
 
 body {
-	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fone.ppg);
+	background: #485563;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+
 	color: #fff;
 	font-family: sans-serif;
 	background-size: cover;
@@ -34,7 +37,8 @@ p {
 }
 
 a {
-	color: purple;
+	color: #121910;
+	text-decoration: none;
 }
 
 #disqus_thread {
